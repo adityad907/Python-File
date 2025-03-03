@@ -1,0 +1,160 @@
+print("Hello World")
+print("My name is aditya and i am 18 years old")
+print(10+23)
+name = "Aditya" #string
+age = 18 #integer 
+price = 10.32 #floating value
+print(name,age,price)
+print("my name is", name)
+print("my age is", age)
+print("my dogs price is", price)
+age2 = name
+print(age2)
+#variable 1 is valid but 1 variable is not valid because we can not write the number before the variable in python
+#meaningful and simple variable should be used for the better visual representation like name, age, count, sum.
+print(type(name))
+print(type(age),)
+print(type(price))
+
+print("fing is the only goar ==t ofmdfb")
+# ther is a shortcut in the vs code for comment like if we have wrote more the two or three lines of code then we can just add
+# ctrl+/ to comment the all lines of code 
+
+# OPERATORS 
+# ARTHEMATIC OPERATORS 
+
+a = 12
+b = 10
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a % b) # This is used for finding the remainder 
+print(a ** b) # This is used to find the a^b
+
+# RELATIONAL OPERATORS 
+
+a = 45 
+b = 30
+
+print(a==b) #false 
+print(a!=b) #true 
+print(a>=b) #true
+print(a>b) #true 
+print(a<b) #false 
+print(a<=b) #false 
+
+# ASSIGNMMENT OPERATOR 
+
+# here we add the 2 in the num so the answer will be printed as the the 12
+#and same with other terms also 
+
+num = 2
+num += 10
+print("num :",num)
+
+num = 2
+num -= 10
+print("num :", num)
+
+num = 10
+num /= 10
+print("num :", num)
+
+num = 10 
+num %= 10
+print("num :", num)
+
+num = 10
+num **=10
+print("num :", num)
+
+num = 10 
+num *= 10
+print("num :", num)
+
+#LOGICAL OPERATORS 
+#(they are based on the boolean values)
+
+print(not False)
+print(not True)
+
+# LET
+a = 23
+b = 20
+print(not (a>b))# wich is equal to the false because a.b is true and the not of true is false
+print(not (a<b))# which is equal to true 
+
+val1 = 20
+val2 = 13
+print("ans of operator", val1 and val2)
+# so here the b oth values should be similar or equal so that the answer will also bw same
+
+print(" or operator :", val1 or val2)
+
+print(a==b and a>=b)
+print(a==b or a>=b)
+
+# TYPE CASTING 
+
+a = 10
+b = 1.32
+print(a+b)# we will get the required value 11.32
+
+#but if we add a string into the floating value the error will occur because 
+#string and float are not the same type so for avoiding that we add int("string")
+# a = "2"
+# b = 10.3 
+# print(a+b)
+# this will be error
+
+a = int("2")
+b = 10.32
+print(a+b)# we will get 12.32
+
+# INPUT IN PYTHON 
+
+name = input("enter you name :")
+print("whatsupp", name)
+#so this will take your input and then give you the output like
+#whatsupp input that you have given 
+
+# so basically all the input values types is string is given but if we have to change it
+#we have to use type casting for example 
+
+# name = input("my name is :")
+# print("whatsupp",name)
+# age = int(input ("my age is :"))
+# print ("oo you are just ", age,"you are very younger")
+# marks = float(input("my marks are :"))
+# print("you got",marks,"Congratulations Boy")
+
+
+
+# SOME QUESTIONS/ PROBLEMS 
+#1. WRITE A PROGRAMM TO INPUT 2 NUMBERS AND PRINT THEIR SUM
+
+first = int(input("first number:"))
+second = int(input("second number:"))
+print("Sum =",first + second)
+
+
+#2. WRITE A PROGRAMM WHICH INPUT SIDE OF A SQUARE AND PRINT ITS AREA
+
+side = int(input("first side :"))
+print("the area is equal to the",side*side,"sq meter")
+
+#3. wap to input 2 floating point numbers and print their average
+
+first = float(input("first number is :"))
+second = float(input("seconf number is :"))
+print("the average of the two floating numbers is = ", (first+second)/2)
+
+#4. wap to input two integer a and b , print ture if a>=b and if not then print False
+
+a = int(input("first number is ="))
+b = int(input("second number is ="))
+
+print("the given statement is:",a>=b)
+
